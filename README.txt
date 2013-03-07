@@ -1,4 +1,4 @@
-A set of tools for managing windows binary egg building.
+The buildbot configuration of winbot.zope.org
 
 Detailed documentation at:
 http://docs.zope.org/zopetoolkit/process/winbotsetup.html
