@@ -15,9 +15,15 @@ for root, dirs, files in os.walk(top, topdown=False):
         fname = os.path.join(root, name)
         if is_win32:
             os.chmod(fname, stat.S_IWRITE)
-        os.remove(fname)
+        try:
+            os.remove(fname)
+        except WindowsError:
+            pass
         print "erase %s" % fname
     for name in dirs:
         dname = os.path.join(root, name)
-        os.rmdir(dname)
+        try:
+            os.rmdir(dname)
+        except WindowsError:
+            pass
         print "rmdir %s" % dname
