@@ -18,7 +18,7 @@
   </head>
   <body class="interface">
     {% block header -%}
-    <div class="header">    
+    <div class="header">
         <a href="{{ path_to_root or '.' }}">Home</a>
         - <a href="{{ path_to_root }}waterfall">Waterfall</a>
         <a href="{{ path_to_root }}grid">Grid</a>
@@ -35,11 +35,11 @@
     <hr/>
 
     <div class="content">
-      {%- block content -%}     
+      {%- block content -%}
       {%- endblock -%}
     </div>
 
-    {%- block footer -%} 
+    {%- block footer -%}
     <div class="footer" style="clear:both">
       <hr/>
       <a href="http://buildbot.net/">BuildBot</a> ({{version}})
@@ -52,6 +52,12 @@
         {%- endif -%}
         &nbsp;project.
       {%- endif -%}
+      <br/>
+      This buildbot is generously hosted on a <a href="http://www.rackspace.com/">Rackspace</a> VM.
+      <br/>
+      Configuration at: <a href="https://github.com/zopefoundation/zope.winbot">https://github.com/zopefoundation/zope.winbot</a>
+      <br/>
+      The egg builder task source is at: <a href="https://github.com/zopefoundation/zope.wineggbuilder">https://github.com/zopefoundation/zope.wineggbuilder</a>
       <br/>
       Page built: <b>{{ time }}</b> ({{ tz }})
     </div>
