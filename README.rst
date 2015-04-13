@@ -107,30 +107,30 @@ zope.testbrowser             |t98|_     |w2698|_
 persistent                   |t99|_     |w2699|_    
 transaction                  |t100|_    |w26100|_   
 BTrees                       |t101|_    |w26101|_   
-z3c.authenticator            |t102|_    |w26102|_   
-z3c.baseregistry             |t103|_    |w26103|_   
-z3c.batching                 |t104|_    |w26104|_   
-z3c.breadcrumb               |t105|_    |w26105|_   
-z3c.configurator             |t106|_    |w26106|_   
-z3c.contents                 |t107|_    |w26107|_   
-z3c.coverage                 |t108|_    |w26108|_   
-z3c.datagenerator            |t109|_    |w26109|_   
-z3c.form                     |t110|_    |w26110|_   
-z3c.formui                   |t111|_    |w26111|_   
-z3c.json                     |t112|_    |w26112|_   
-z3c.jsonrpc                  |t113|_    |w26113|_   
-z3c.jsonrpcproxy             |t114|_    |w26114|_   
-z3c.jsontree                 |t115|_    |w26115|_   
-z3c.language.negotiator      |t116|_    |w26116|_   
-z3c.language.session         |t117|_    |w26117|_   
-z3c.language.switch          |t118|_    |w26118|_   
-z3c.layer.pagelet            |t119|_    |w26119|_   
-z3c.layer.ready2go           |t120|_    |w26120|_   
-z3c.macro                    |t121|_    |w26121|_   
-z3c.menu.ready2go            |t122|_    |w26122|_   
-z3c.pagelet                  |t123|_    |w26123|_   
-z3c.password                 |t124|_    |w26124|_   
-z3c.pdftemplate              |t125|_    |w26125|_   
+zodbpickle                   |t102|_    |w26102|_   
+z3c.authenticator            |t103|_    |w26103|_   
+z3c.baseregistry             |t104|_    |w26104|_   
+z3c.batching                 |t105|_    |w26105|_   
+z3c.breadcrumb               |t106|_    |w26106|_   
+z3c.configurator             |t107|_    |w26107|_   
+z3c.contents                 |t108|_    |w26108|_   
+z3c.coverage                 |t109|_    |w26109|_   
+z3c.datagenerator            |t110|_    |w26110|_   
+z3c.form                     |t111|_    |w26111|_   
+z3c.formui                   |t112|_    |w26112|_   
+z3c.json                     |t113|_    |w26113|_   
+z3c.jsonrpc                  |t114|_    |w26114|_   
+z3c.jsonrpcproxy             |t115|_    |w26115|_   
+z3c.jsontree                 |t116|_    |w26116|_   
+z3c.language.negotiator      |t117|_    |w26117|_   
+z3c.language.session         |t118|_    |w26118|_   
+z3c.language.switch          |t119|_    |w26119|_   
+z3c.layer.pagelet            |t120|_    |w26120|_   
+z3c.layer.ready2go           |t121|_    |w26121|_   
+z3c.macro                    |t122|_    |w26122|_   
+z3c.menu.ready2go            |t123|_    |w26123|_   
+z3c.pagelet                  |t124|_    |w26124|_   
+z3c.password                 |t125|_    |w26125|_   
 z3c.ptcompat                 |t126|_    |w26126|_   
 z3c.recipe.paster            |t127|_    |w26127|_   
 z3c.sampledata               |t128|_    |w26128|_   
@@ -767,149 +767,149 @@ zope.app.session             |t147|_    |w26147|_
 .. |w26101| image:: http://winbot.zope.org/buildstatusimage?builder=BTrees_py_265_32&number=-1
 .. _w26101: http://winbot.zope.org/builders/BTrees_py_265_32/builds/-1
 
-.. |t102| image:: https://api.travis-ci.org/zopefoundation/z3c.authenticator.png?branch=master
-.. _t102: https://travis-ci.org/zopefoundation/z3c.authenticator
+.. |t102| image:: https://api.travis-ci.org/zopefoundation/zodbpickle.png?branch=master
+.. _t102: https://travis-ci.org/zopefoundation/zodbpickle
 
-.. |w26102| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.authenticator_py_265_32&number=-1
-.. _w26102: http://winbot.zope.org/builders/z3c.authenticator_py_265_32/builds/-1
+.. |w26102| image:: http://winbot.zope.org/buildstatusimage?builder=zodbpickle_py_265_32&number=-1
+.. _w26102: http://winbot.zope.org/builders/zodbpickle_py_265_32/builds/-1
 
-.. |t103| image:: https://api.travis-ci.org/zopefoundation/z3c.baseregistry.png?branch=master
-.. _t103: https://travis-ci.org/zopefoundation/z3c.baseregistry
+.. |t103| image:: https://api.travis-ci.org/zopefoundation/z3c.authenticator.png?branch=master
+.. _t103: https://travis-ci.org/zopefoundation/z3c.authenticator
 
-.. |w26103| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.baseregistry_py_265_32&number=-1
-.. _w26103: http://winbot.zope.org/builders/z3c.baseregistry_py_265_32/builds/-1
+.. |w26103| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.authenticator_py_265_32&number=-1
+.. _w26103: http://winbot.zope.org/builders/z3c.authenticator_py_265_32/builds/-1
 
-.. |t104| image:: https://api.travis-ci.org/zopefoundation/z3c.batching.png?branch=master
-.. _t104: https://travis-ci.org/zopefoundation/z3c.batching
+.. |t104| image:: https://api.travis-ci.org/zopefoundation/z3c.baseregistry.png?branch=master
+.. _t104: https://travis-ci.org/zopefoundation/z3c.baseregistry
 
-.. |w26104| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.batching_py_265_32&number=-1
-.. _w26104: http://winbot.zope.org/builders/z3c.batching_py_265_32/builds/-1
+.. |w26104| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.baseregistry_py_265_32&number=-1
+.. _w26104: http://winbot.zope.org/builders/z3c.baseregistry_py_265_32/builds/-1
 
-.. |t105| image:: https://api.travis-ci.org/zopefoundation/z3c.breadcrumb.png?branch=master
-.. _t105: https://travis-ci.org/zopefoundation/z3c.breadcrumb
+.. |t105| image:: https://api.travis-ci.org/zopefoundation/z3c.batching.png?branch=master
+.. _t105: https://travis-ci.org/zopefoundation/z3c.batching
 
-.. |w26105| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.breadcrumb_py_265_32&number=-1
-.. _w26105: http://winbot.zope.org/builders/z3c.breadcrumb_py_265_32/builds/-1
+.. |w26105| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.batching_py_265_32&number=-1
+.. _w26105: http://winbot.zope.org/builders/z3c.batching_py_265_32/builds/-1
 
-.. |t106| image:: https://api.travis-ci.org/zopefoundation/z3c.configurator.png?branch=master
-.. _t106: https://travis-ci.org/zopefoundation/z3c.configurator
+.. |t106| image:: https://api.travis-ci.org/zopefoundation/z3c.breadcrumb.png?branch=master
+.. _t106: https://travis-ci.org/zopefoundation/z3c.breadcrumb
 
-.. |w26106| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.configurator_py_265_32&number=-1
-.. _w26106: http://winbot.zope.org/builders/z3c.configurator_py_265_32/builds/-1
+.. |w26106| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.breadcrumb_py_265_32&number=-1
+.. _w26106: http://winbot.zope.org/builders/z3c.breadcrumb_py_265_32/builds/-1
 
-.. |t107| image:: https://api.travis-ci.org/zopefoundation/z3c.contents.png?branch=master
-.. _t107: https://travis-ci.org/zopefoundation/z3c.contents
+.. |t107| image:: https://api.travis-ci.org/zopefoundation/z3c.configurator.png?branch=master
+.. _t107: https://travis-ci.org/zopefoundation/z3c.configurator
 
-.. |w26107| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.contents_py_265_32&number=-1
-.. _w26107: http://winbot.zope.org/builders/z3c.contents_py_265_32/builds/-1
+.. |w26107| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.configurator_py_265_32&number=-1
+.. _w26107: http://winbot.zope.org/builders/z3c.configurator_py_265_32/builds/-1
 
-.. |t108| image:: https://api.travis-ci.org/zopefoundation/z3c.coverage.png?branch=master
-.. _t108: https://travis-ci.org/zopefoundation/z3c.coverage
+.. |t108| image:: https://api.travis-ci.org/zopefoundation/z3c.contents.png?branch=master
+.. _t108: https://travis-ci.org/zopefoundation/z3c.contents
 
-.. |w26108| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.coverage_py_265_32&number=-1
-.. _w26108: http://winbot.zope.org/builders/z3c.coverage_py_265_32/builds/-1
+.. |w26108| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.contents_py_265_32&number=-1
+.. _w26108: http://winbot.zope.org/builders/z3c.contents_py_265_32/builds/-1
 
-.. |t109| image:: https://api.travis-ci.org/zopefoundation/z3c.datagenerator.png?branch=master
-.. _t109: https://travis-ci.org/zopefoundation/z3c.datagenerator
+.. |t109| image:: https://api.travis-ci.org/zopefoundation/z3c.coverage.png?branch=master
+.. _t109: https://travis-ci.org/zopefoundation/z3c.coverage
 
-.. |w26109| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.datagenerator_py_265_32&number=-1
-.. _w26109: http://winbot.zope.org/builders/z3c.datagenerator_py_265_32/builds/-1
+.. |w26109| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.coverage_py_265_32&number=-1
+.. _w26109: http://winbot.zope.org/builders/z3c.coverage_py_265_32/builds/-1
 
-.. |t110| image:: https://api.travis-ci.org/zopefoundation/z3c.form.png?branch=master
-.. _t110: https://travis-ci.org/zopefoundation/z3c.form
+.. |t110| image:: https://api.travis-ci.org/zopefoundation/z3c.datagenerator.png?branch=master
+.. _t110: https://travis-ci.org/zopefoundation/z3c.datagenerator
 
-.. |w26110| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.form_py_265_32&number=-1
-.. _w26110: http://winbot.zope.org/builders/z3c.form_py_265_32/builds/-1
+.. |w26110| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.datagenerator_py_265_32&number=-1
+.. _w26110: http://winbot.zope.org/builders/z3c.datagenerator_py_265_32/builds/-1
 
-.. |t111| image:: https://api.travis-ci.org/zopefoundation/z3c.formui.png?branch=master
-.. _t111: https://travis-ci.org/zopefoundation/z3c.formui
+.. |t111| image:: https://api.travis-ci.org/zopefoundation/z3c.form.png?branch=master
+.. _t111: https://travis-ci.org/zopefoundation/z3c.form
 
-.. |w26111| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.formui_py_265_32&number=-1
-.. _w26111: http://winbot.zope.org/builders/z3c.formui_py_265_32/builds/-1
+.. |w26111| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.form_py_265_32&number=-1
+.. _w26111: http://winbot.zope.org/builders/z3c.form_py_265_32/builds/-1
 
-.. |t112| image:: https://api.travis-ci.org/zopefoundation/z3c.json.png?branch=master
-.. _t112: https://travis-ci.org/zopefoundation/z3c.json
+.. |t112| image:: https://api.travis-ci.org/zopefoundation/z3c.formui.png?branch=master
+.. _t112: https://travis-ci.org/zopefoundation/z3c.formui
 
-.. |w26112| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.json_py_265_32&number=-1
-.. _w26112: http://winbot.zope.org/builders/z3c.json_py_265_32/builds/-1
+.. |w26112| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.formui_py_265_32&number=-1
+.. _w26112: http://winbot.zope.org/builders/z3c.formui_py_265_32/builds/-1
 
-.. |t113| image:: https://api.travis-ci.org/zopefoundation/z3c.jsonrpc.png?branch=master
-.. _t113: https://travis-ci.org/zopefoundation/z3c.jsonrpc
+.. |t113| image:: https://api.travis-ci.org/zopefoundation/z3c.json.png?branch=master
+.. _t113: https://travis-ci.org/zopefoundation/z3c.json
 
-.. |w26113| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.jsonrpc_py_265_32&number=-1
-.. _w26113: http://winbot.zope.org/builders/z3c.jsonrpc_py_265_32/builds/-1
+.. |w26113| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.json_py_265_32&number=-1
+.. _w26113: http://winbot.zope.org/builders/z3c.json_py_265_32/builds/-1
 
-.. |t114| image:: https://api.travis-ci.org/zopefoundation/z3c.jsonrpcproxy.png?branch=master
-.. _t114: https://travis-ci.org/zopefoundation/z3c.jsonrpcproxy
+.. |t114| image:: https://api.travis-ci.org/zopefoundation/z3c.jsonrpc.png?branch=master
+.. _t114: https://travis-ci.org/zopefoundation/z3c.jsonrpc
 
-.. |w26114| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.jsonrpcproxy_py_265_32&number=-1
-.. _w26114: http://winbot.zope.org/builders/z3c.jsonrpcproxy_py_265_32/builds/-1
+.. |w26114| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.jsonrpc_py_265_32&number=-1
+.. _w26114: http://winbot.zope.org/builders/z3c.jsonrpc_py_265_32/builds/-1
 
-.. |t115| image:: https://api.travis-ci.org/zopefoundation/z3c.jsontree.png?branch=master
-.. _t115: https://travis-ci.org/zopefoundation/z3c.jsontree
+.. |t115| image:: https://api.travis-ci.org/zopefoundation/z3c.jsonrpcproxy.png?branch=master
+.. _t115: https://travis-ci.org/zopefoundation/z3c.jsonrpcproxy
 
-.. |w26115| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.jsontree_py_265_32&number=-1
-.. _w26115: http://winbot.zope.org/builders/z3c.jsontree_py_265_32/builds/-1
+.. |w26115| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.jsonrpcproxy_py_265_32&number=-1
+.. _w26115: http://winbot.zope.org/builders/z3c.jsonrpcproxy_py_265_32/builds/-1
 
-.. |t116| image:: https://api.travis-ci.org/zopefoundation/z3c.language.negotiator.png?branch=master
-.. _t116: https://travis-ci.org/zopefoundation/z3c.language.negotiator
+.. |t116| image:: https://api.travis-ci.org/zopefoundation/z3c.jsontree.png?branch=master
+.. _t116: https://travis-ci.org/zopefoundation/z3c.jsontree
 
-.. |w26116| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.language.negotiator_py_265_32&number=-1
-.. _w26116: http://winbot.zope.org/builders/z3c.language.negotiator_py_265_32/builds/-1
+.. |w26116| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.jsontree_py_265_32&number=-1
+.. _w26116: http://winbot.zope.org/builders/z3c.jsontree_py_265_32/builds/-1
 
-.. |t117| image:: https://api.travis-ci.org/zopefoundation/z3c.language.session.png?branch=master
-.. _t117: https://travis-ci.org/zopefoundation/z3c.language.session
+.. |t117| image:: https://api.travis-ci.org/zopefoundation/z3c.language.negotiator.png?branch=master
+.. _t117: https://travis-ci.org/zopefoundation/z3c.language.negotiator
 
-.. |w26117| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.language.session_py_265_32&number=-1
-.. _w26117: http://winbot.zope.org/builders/z3c.language.session_py_265_32/builds/-1
+.. |w26117| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.language.negotiator_py_265_32&number=-1
+.. _w26117: http://winbot.zope.org/builders/z3c.language.negotiator_py_265_32/builds/-1
 
-.. |t118| image:: https://api.travis-ci.org/zopefoundation/z3c.language.switch.png?branch=master
-.. _t118: https://travis-ci.org/zopefoundation/z3c.language.switch
+.. |t118| image:: https://api.travis-ci.org/zopefoundation/z3c.language.session.png?branch=master
+.. _t118: https://travis-ci.org/zopefoundation/z3c.language.session
 
-.. |w26118| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.language.switch_py_265_32&number=-1
-.. _w26118: http://winbot.zope.org/builders/z3c.language.switch_py_265_32/builds/-1
+.. |w26118| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.language.session_py_265_32&number=-1
+.. _w26118: http://winbot.zope.org/builders/z3c.language.session_py_265_32/builds/-1
 
-.. |t119| image:: https://api.travis-ci.org/zopefoundation/z3c.layer.pagelet.png?branch=master
-.. _t119: https://travis-ci.org/zopefoundation/z3c.layer.pagelet
+.. |t119| image:: https://api.travis-ci.org/zopefoundation/z3c.language.switch.png?branch=master
+.. _t119: https://travis-ci.org/zopefoundation/z3c.language.switch
 
-.. |w26119| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.layer.pagelet_py_265_32&number=-1
-.. _w26119: http://winbot.zope.org/builders/z3c.layer.pagelet_py_265_32/builds/-1
+.. |w26119| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.language.switch_py_265_32&number=-1
+.. _w26119: http://winbot.zope.org/builders/z3c.language.switch_py_265_32/builds/-1
 
-.. |t120| image:: https://api.travis-ci.org/zopefoundation/z3c.layer.ready2go.png?branch=master
-.. _t120: https://travis-ci.org/zopefoundation/z3c.layer.ready2go
+.. |t120| image:: https://api.travis-ci.org/zopefoundation/z3c.layer.pagelet.png?branch=master
+.. _t120: https://travis-ci.org/zopefoundation/z3c.layer.pagelet
 
-.. |w26120| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.layer.ready2go_py_265_32&number=-1
-.. _w26120: http://winbot.zope.org/builders/z3c.layer.ready2go_py_265_32/builds/-1
+.. |w26120| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.layer.pagelet_py_265_32&number=-1
+.. _w26120: http://winbot.zope.org/builders/z3c.layer.pagelet_py_265_32/builds/-1
 
-.. |t121| image:: https://api.travis-ci.org/zopefoundation/z3c.macro.png?branch=master
-.. _t121: https://travis-ci.org/zopefoundation/z3c.macro
+.. |t121| image:: https://api.travis-ci.org/zopefoundation/z3c.layer.ready2go.png?branch=master
+.. _t121: https://travis-ci.org/zopefoundation/z3c.layer.ready2go
 
-.. |w26121| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.macro_py_265_32&number=-1
-.. _w26121: http://winbot.zope.org/builders/z3c.macro_py_265_32/builds/-1
+.. |w26121| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.layer.ready2go_py_265_32&number=-1
+.. _w26121: http://winbot.zope.org/builders/z3c.layer.ready2go_py_265_32/builds/-1
 
-.. |t122| image:: https://api.travis-ci.org/zopefoundation/z3c.menu.ready2go.png?branch=master
-.. _t122: https://travis-ci.org/zopefoundation/z3c.menu.ready2go
+.. |t122| image:: https://api.travis-ci.org/zopefoundation/z3c.macro.png?branch=master
+.. _t122: https://travis-ci.org/zopefoundation/z3c.macro
 
-.. |w26122| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.menu.ready2go_py_265_32&number=-1
-.. _w26122: http://winbot.zope.org/builders/z3c.menu.ready2go_py_265_32/builds/-1
+.. |w26122| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.macro_py_265_32&number=-1
+.. _w26122: http://winbot.zope.org/builders/z3c.macro_py_265_32/builds/-1
 
-.. |t123| image:: https://api.travis-ci.org/zopefoundation/z3c.pagelet.png?branch=master
-.. _t123: https://travis-ci.org/zopefoundation/z3c.pagelet
+.. |t123| image:: https://api.travis-ci.org/zopefoundation/z3c.menu.ready2go.png?branch=master
+.. _t123: https://travis-ci.org/zopefoundation/z3c.menu.ready2go
 
-.. |w26123| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.pagelet_py_265_32&number=-1
-.. _w26123: http://winbot.zope.org/builders/z3c.pagelet_py_265_32/builds/-1
+.. |w26123| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.menu.ready2go_py_265_32&number=-1
+.. _w26123: http://winbot.zope.org/builders/z3c.menu.ready2go_py_265_32/builds/-1
 
-.. |t124| image:: https://api.travis-ci.org/zopefoundation/z3c.password.png?branch=master
-.. _t124: https://travis-ci.org/zopefoundation/z3c.password
+.. |t124| image:: https://api.travis-ci.org/zopefoundation/z3c.pagelet.png?branch=master
+.. _t124: https://travis-ci.org/zopefoundation/z3c.pagelet
 
-.. |w26124| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.password_py_265_32&number=-1
-.. _w26124: http://winbot.zope.org/builders/z3c.password_py_265_32/builds/-1
+.. |w26124| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.pagelet_py_265_32&number=-1
+.. _w26124: http://winbot.zope.org/builders/z3c.pagelet_py_265_32/builds/-1
 
-.. |t125| image:: https://api.travis-ci.org/zopefoundation/z3c.pdftemplate.png?branch=master
-.. _t125: https://travis-ci.org/zopefoundation/z3c.pdftemplate
+.. |t125| image:: https://api.travis-ci.org/zopefoundation/z3c.password.png?branch=master
+.. _t125: https://travis-ci.org/zopefoundation/z3c.password
 
-.. |w26125| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.pdftemplate_py_265_32&number=-1
-.. _w26125: http://winbot.zope.org/builders/z3c.pdftemplate_py_265_32/builds/-1
+.. |w26125| image:: http://winbot.zope.org/buildstatusimage?builder=z3c.password_py_265_32&number=-1
+.. _w26125: http://winbot.zope.org/builders/z3c.password_py_265_32/builds/-1
 
 .. |t126| image:: https://api.travis-ci.org/zopefoundation/z3c.ptcompat.png?branch=master
 .. _t126: https://travis-ci.org/zopefoundation/z3c.ptcompat
