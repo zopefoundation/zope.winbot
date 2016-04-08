@@ -38,11 +38,14 @@ update buildbot's checked out copies by hand.
 
 The buildmaster directory appears
 to be c:\\buildmaster, and it has all the \*.cfg files in it, but it is not a
-git checkout.  This repository is checked out in c:\\1\\zope.winbot and seems
-to be reasonably up-to-date (but not current).  I can run ``git pull`` in it.
+git checkout.  This repository is checked out in
+d:\\github_mirror\\zope.winbot
+and seems to be reasonably up-to-date (but not current).
+I can run ``git pull`` in it.
 
-Apparently I have to copy the c:\\1\\zope.winbot\\buildmaster\\\*.cfg files
-manually to c:\\buildmaster\\, and then restart buildbot.
+Apparently I have to copy the
+d:\\github_mirror\\zope.winbot\\buildmaster\\*.cfg
+files manually to c:\\buildmaster\\, and then restart buildbot.
 
 Buildbot itself is running as a Windows service "BuildBot", using the
 "buildbot" user account.
