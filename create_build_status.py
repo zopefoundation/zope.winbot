@@ -6,9 +6,9 @@ COLUMNS = (
      'https://api.travis-ci.org/zopefoundation/%s.png?branch=master',
      'https://travis-ci.org/zopefoundation/%s'
      ),
-    ('w26', 'Win 2.6',
-     'http://winbot.zope.org/buildstatusimage?builder=%s_py_265_32&number=-1',
-     'http://winbot.zope.org/builders/%s_py_265_32/builds/-1'
+    ('w27', 'Win 2.7',
+     'http://winbot.zope.org/buildstatusimage?builder=%s_py_270_32&number=-1',
+     'http://winbot.zope.org/builders/%s_py_270_32/builds/-1'
      )
 )
 
