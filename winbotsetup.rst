@@ -40,7 +40,7 @@ Developers interaction
 
 * Results can be checked either on pypi (that the eggs appear), or directly with
   winbot.
-  Sample results: http://winbot.zope.org/builders/wineggbuilder/builds/60/steps/release%20eggs/logs/stdio
+  Sample results: http://winbot.zope.org/builders/wineggbuilder/builds/-1/steps/release%20eggs/logs/stdio
   Scroll to the bottom to see the summary table.
 
 If you need a NEW package to be processed contact:
@@ -50,7 +50,7 @@ If you need a NEW package to be processed contact:
 * Hanno Schlichting (hanno-at-hannosch-dot-eu)
 
 The package that creates the eggs is here:
-svn://svn.zope.org/repos/main/zope.wineggbuilder
+https://github.com/zopefoundation/zope.wineggbuilder
 
 
 Detailed winbot configuration description
@@ -81,13 +81,13 @@ Windows basics
   * windows update (manual)
 
     * we should have only security updates, no fancy IE8 etc
-    * better dont touch HW (this is VM)
+    * better dont touch HW (this is a VM)
     * restart, repeat windows update
     * kill off all c:\\windows\\$NtUninstall*, $hf_mig too
 
   * automatic windows update is OFF! (I hate when it f..s up the system)
 
-  * download: (all downloaded stuff goes into c:\\install)
+  * download: (all downloaded stuff goes into d:\\install)
 
     * firefox
     * freecommander (my personally preferred stuff)
@@ -168,6 +168,22 @@ pythons + pywin32 + setuptools
     * beat it until it works (permissions, etc....)
 
   * put an apache in front of the whole
+  
+  * when python complains with ``urlopen error [SSL: CERTIFICATE_VERIFY_FAILED]``
+  
+    * get the certificate root of pypi from
+      https://www.digicert.com/digicert-root-certificates.htm
+      DigiCert High Assurance EV Root CA	
+    
+    * Start > Run: mmc.exe
+    * Menu: File > Add/Remove Snap-in...
+    * Under Available snap-ins, select Certificates and press Add.
+    * Select Computer Account for the certificates to manage. Press Next.
+    * Select **Local Computer** and press Finish.
+    * Press OK to return to the management console.
+    * navigate to Console Root > Certificates > Trusted Root Certificates > Certificates
+    * Action > All tasks > import...
+    * import the downloaded CRT file
 
 Buildbot for tests
 ------------------
