@@ -185,6 +185,10 @@ pythons + pywin32 + setuptools
     * Action > All tasks > import...
     * import the downloaded CRT file
 
+    * See: http://www.databasemart.com/howto/SQLoverssl/How_To_Install_Trusted_Root_Certification_Authority_With_MMC.aspx
+    
+    * Same goes for the https://bootstrap.pypa.io/ certificate
+
 Buildbot for tests
 ------------------
 
