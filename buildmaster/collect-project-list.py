@@ -22,11 +22,13 @@ for project in projects:
         continue  # comment or empty line
 
     parts = project.split(',')
-    if len(parts) == 3:
+    projectName = repourl = versions = opts = ''
+    if len(parts) == 4:
+        projectName, repourl, versions, opts = parts
+    elif len(parts) == 3:
         projectName, repourl, versions = parts
     elif len(parts) == 2:
         projectName, repourl = parts
-        version = ''
     else:
         print "Failed on line %s, ignoring", project
         continue
@@ -46,7 +48,7 @@ for project in projects:
                 if ver in platforms:
                     versions.append(ver)
             version = ';'.join(versions)
-    line = "%s,%s,%s" % (projectName, repourl, version)
+    line = "%s,%s,%s,%s" % (projectName, repourl, version, opts)
     output.append(line)
 
 open("project-list.cfg", "wb").write("\n".join(output))
